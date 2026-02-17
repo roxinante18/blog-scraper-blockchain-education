@@ -1,1 +1,7 @@
-
+requests>=2.31.0
+pandas>=2.1.0
+duckduckgo-search>=5.0.0  # Untuk mencari URL artikel tanpa API key berbayar
+trafilatura>=1.6.0        # State-of-the-art text extraction (lebih rapi dari BeautifulSoup)
+loguru>=0.7.2             # Logging modern (lebih baik dari built-in logging)
+fake-useragent>=1.4.0     # Agar tidak terdeteksi sebagai bot
+tqdm>=4.66.0              # Progress bar agar terlihat keren di terminal
